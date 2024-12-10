@@ -1,0 +1,29 @@
+:root {
+    --main-bg-color: #24353f;
+    /* --heading-color: #17A2B8; */
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: #fff;
+}
+
+.form {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+input {
+    background-color: transparent;
+    border: 1px rgba(255, 255, 255, 0.6) solid;
+    outline: none;
+    color: #fff;
+    transition: border-color 0.2s;
+}
+
+input:focus {
+    border-color: #17A2B8;
+}
